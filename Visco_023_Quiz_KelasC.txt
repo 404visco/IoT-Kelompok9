@@ -1,0 +1,19 @@
+1_"""
+     2
+  """
+  
+2_"""
+     t0 = 7
+     t2 = 3
+     t1 = t0 + t2 = 10
+     mem[0x1001000C] = 10
+
+  """
+3_"""
+     lw (load word) dan sw (store word)
+  """
+
+4_"""
+     PC ke instruksi berikutnya = sw
+  """
+     

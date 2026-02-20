@@ -1,6 +1,6 @@
 TUGAS 1
 
-1_"Perbedaan antara arsitektur komputer dan organisasi komputer ada pada fungsi dan implementasinya. 
+1_"""Perbedaan antara arsitektur komputer dan organisasi komputer ada pada fungsi dan implementasinya. 
    Arsitektur komputer berkaitan dengan atribut sistem yang terlihat oleh programmer serta mempengaruhi cara suatu program dijalankan.
    Arsitektur menentukan kemampuan yang dimiliki komputer, seperti jenis instruksi yang tersedia, format data, serta mekanisme pengalamatan memori.
    Sebagai contoh, keputusan apakah sebuah komputer memiliki instruksi perkalian merupakan bagian dari arsitektur komputer karena hal tersebut menentukan operasi apa saja yang dapat digunakan oleh programmer.
@@ -9,9 +9,9 @@ TUGAS 1
    Organisasi komputer tidak terlihat langsung oleh programmer karena membahas detail implementasi internal sistem.
    Misalnya, ketika komputer memiliki instruksi perkalian, organisasi komputer menentukan bagaimana instruksi tersebut dijalankan, apakah menggunakan unit pengali khusus atau dilakukan melalui proses perhitungan berulang menggunakan ALU.
    
-   Dengan demikian, arsitektur menjelaskan apa yang dapat dilakukan komputer, sedangkan organisasi menjelaskan bagaimana komputer melakukannya secara fisik."
+   Dengan demikian, arsitektur menjelaskan apa yang dapat dilakukan komputer, sedangkan organisasi menjelaskan bagaimana komputer melakukannya secara fisik."""
 
-2_"Fungsi Dasar Komputer antara lain:
+2_"""Fungsi Dasar Komputer antara lain:
    1. Pemrosesan data (Data Processing)
       Komputer mengolah data mentah menjadi informasi, misalnya perhitungan
       matematika atau logika.
@@ -23,33 +23,33 @@ TUGAS 1
       monitor, atau jaringan.
    4. Pengendalian (Control)
       Komputer mengatur dan mengoordinasikan seluruh operasi agar berjalan
-      sesuai urutan dan aturan yang benar."
+      sesuai urutan dan aturan yang benar."""
 
-3_"Sturktur utama komputer antara lain:
+3_"""Sturktur utama komputer antara lain:
    1. Central Processing Unit (CPU) --> Bertugas mengendalikan seluruh operasi dan melakukan pemrosesan data.
    2. Main Memory --> berfungsi untuk menyimpan data dan instruksi program yang sedang digunakan oleh CPU.
    3. Perangkat IO --> bertugas untuk memungkinkan komputer berkomunikasi dengan dunia luar (mouse, keyboard, dll)
-   4. Sistem Interkoneksi / Bus --> bertugas sebagai jalur penghubung antar komponen utama komputer agar dapat saling bertukar data dan sinyal."
+   4. Sistem Interkoneksi / Bus --> bertugas sebagai jalur penghubung antar komponen utama komputer agar dapat saling bertukar data dan sinyal."""
 
-4_"Struktur utama CPU terdiri dari:
+4_"""Struktur utama CPU terdiri dari:
    - ALU (Arithmetic Logic Unit): Untuk operasi aritmatika dan logika (tambah, kurang, AND, OR, dll).
    - Control Unit (CU): Mengatur jalannya instruksi dan mengoordinasikan kerja komponen lain.
    - Register: Tempat penyimpanan data dan instruksi sementara yang sangat cepat.
-   - CPU Interconnection: Suatu mekanisme yang menyediakan komunikasi antara ALU, CU, dan Register."
+   - CPU Interconnection: Suatu mekanisme yang menyediakan komunikasi antara ALU, CU, dan Register."""
 
-5_"Multicore adalah prosesor yang memiliki banyak inti(ALU, CU, Register) dalam satu chip. Sehingga dapat menjalankan beberapa proses secara paralel."
+5_"""Multicore adalah prosesor yang memiliki banyak inti(ALU, CU, Register) dalam satu chip. Sehingga dapat menjalankan beberapa proses secara paralel."""
 
-6_"Processor/CPU adalah chip fisik / unit pemroses. Sedangkan core adalah bagian dalam CPU/Processor.
+6_"""Processor/CPU adalah chip fisik / unit pemroses. Sedangkan core adalah bagian dalam CPU/Processor.
    CPU (Central Processing Unit) adalah komponen utama komputer yang berfungsi sebagai otak dari sistem. CPU adalah yang bertanggung jawab untuk memproses instruksi, melakukan perhitungan, dan menjalankan program pada komputer.
    Fungsi core adalah untuk memproses instruksi secara paralel, sehingga komputer dapat menjalankan beberapa tugas sekaligus.
-   Semakin banyak core yang dimiliki oleh CPU, semakin banyak tugas yang dapat diproses secara bersamaan, dan semakin baik performa dari prosesor tersebut."
+   Semakin banyak core yang dimiliki oleh CPU, semakin banyak tugas yang dapat diproses secara bersamaan, dan semakin baik performa dari prosesor tersebut."""
 
-7_"1. First Generation - Vacuum Tube:
+7_"""1. First Generation - Vacuum Tube:
       - Ukuran komputer sangat besar.
       - Konsumsi listrik tinggi dan panas berlebih.
       - Keandalan rendah (sering rusak).
       - Pemrograman masih menggunakan bahasa mesin.
-      - Kecepatan relatif lambat."
+      - Kecepatan relatif lambat.
    2. Second Generation -  Transistor:
       - Ukuran komputer lebih kecil.
       - Lebih hemat listrik dan panas.
@@ -60,43 +60,43 @@ TUGAS 1
       - Kinerja meningkat signifikan
       - Biaya produksi lebih murah
       - Mulai mendukung multiprogramming
-      - Sistem operasi berkembang pesat"
+      - Sistem operasi berkembang pesat
    4. Later Generation:
       -Semiconductor memory → memori menjadi lebih kecil, cepat, dan andal.
-      -Microprocessor → seluruh komponen CPU digabungkan dalam satu chip."
+      -Microprocessor → seluruh komponen CPU digabungkan dalam satu chip."""
 
-8_"Integrated Circuit atau IC adalah sebuah komponen elektronik yang dibuat dengan menanamkan banyak rangkaian elektronik, seperti transistor, resistor, dan gerbang logika, ke dalam satu keping kecil bahan semikonduktor, biasanya silikon.
+8_"""Integrated Circuit atau IC adalah sebuah komponen elektronik yang dibuat dengan menanamkan banyak rangkaian elektronik, seperti transistor, resistor, dan gerbang logika, ke dalam satu keping kecil bahan semikonduktor, biasanya silikon.
    Microprocessor merupakan perkembangan lanjutan dari teknologi Integrated Circuit.
    Microprocessor adalah sebuah IC khusus yang di dalamnya telah terintegrasi seluruh komponen utama Central Processing Unit (CPU), seperti Arithmetic Logic Unit (ALU), Control Unit (CU), dan register.
    Dengan kata lain, microprocessor berfungsi sebagai “otak” komputer yang bertugas mengeksekusi instruksi program, melakukan operasi aritmatika dan logika, serta mengendalikan kerja seluruh sistem komputer.
-   Sebelum microprocessor ditemukan, CPU terdiri dari banyak IC terpisah yang membuat komputer berukuran besar dan kompleks."
+   Sebelum microprocessor ditemukan, CPU terdiri dari banyak IC terpisah yang membuat komputer berukuran besar dan kompleks."""
 
-9_"Moore's Law menyatakan bahwa jumlah transistor pada mikroprosesor akan meningkat dua kali lipat setiap 18 bulan."
+9_"""Moore's Law menyatakan bahwa jumlah transistor pada mikroprosesor akan meningkat dua kali lipat setiap 18 bulan.
    Konsekuensi:
    -Performa meningkat
    -Ukuran perangkat makin kecil
    -Harga makin murah
-   -Muncul masalah panas & konsumsi daya → muncul multicore & parallel processing."
+   -Muncul masalah panas & konsumsi daya → muncul multicore & parallel processing."""
 
-10_"Menurut Amdahl’s Law, peningkatan kecepatan eksekusi program atau speedup factor tidak hanya ditentukan oleh jumlah prosesor yang digunakan.
+10_"""Menurut Amdahl’s Law, peningkatan kecepatan eksekusi program atau speedup factor tidak hanya ditentukan oleh jumlah prosesor yang digunakan.
     Faktor utama yang mempengaruhi speedup adalah proporsi bagian program yang dapat dijalankan secara paralel, yang dinyatakan sebagai 𝑓,serta bagian program yang harus tetap dijalankan secara berurutan atau sekuensial, yaitu sebesar 1−𝑓
-    Semakin besar bagian program yang dapat diparalelkan, maka semakin besar pula potensi peningkatan kinerja ketika menggunakan banyak prosesor."
+    Semakin besar bagian program yang dapat diparalelkan, maka semakin besar pula potensi peningkatan kinerja ketika menggunakan banyak prosesor."""
 
-11_"Konsekuensi Amdahl's Law:
+11_"""Konsekuensi Amdahl's Law:
     -Penambahan prosesor tidak selalu meningkatkan performa secara linear.
     -Bagian program yang sekuensial menjadi batas maksimum percepatan.
-    -Semakin besar bagian paralel → semakin besar speedup."
+    -Semakin besar bagian paralel → semakin besar speedup."""
 
-12_"Cycle time (τ) adalah waktu yang dibutuhkan untuk satu siklus clock."
+12_"""Cycle time (τ) adalah waktu yang dibutuhkan untuk satu siklus clock."""
 
-13_"Cycle rate adalah jumlah siklus clock per detik, biasanya disebut clock frequency, satuannya Hz."
+13_"""Cycle rate adalah jumlah siklus clock per detik, biasanya disebut clock frequency, satuannya Hz."""
 
-14_"CPI (Cycles Per Instruction) adalah rata-rata jumlah siklus clock yang dibutuhkan untuk mengeksekusi satu instruksi dalam sebuah program."
+14_"""CPI (Cycles Per Instruction) adalah rata-rata jumlah siklus clock yang dibutuhkan untuk mengeksekusi satu instruksi dalam sebuah program."""
 
-15_"MIPS (Millions of Instructions Per Second) adalah ukuran berapa instruksi yang dapat dieksekusi prosesor setiap detik."
+15_"""MIPS (Millions of Instructions Per Second) adalah ukuran berapa instruksi yang dapat dieksekusi prosesor setiap detik."""
 
 TUGAS 2
-2.1_"
+2.1_"""
     f= 40 Mhz = 40 x 10^6 Hz
     Ic = 100,000
     
@@ -119,4 +119,4 @@ TUGAS 2
                     = (100,000 x 1.55)/40 x10^6
                     = 155,000/40,000,000
                     = 0.003875 s = 3.875 ms
-    "
+    """
