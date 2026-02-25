@@ -2,11 +2,15 @@
 
 int main()
 {
-    float a;
-    float b;
+    float a,b;
+    float hasil;
 
+    printf("a = ");
     scanf("%f", &a);
+     
+    printf("b = ");
     scanf("%f", &b);
 
-    printf("%f", a+b);
+    hasil = a+b;
+    printf("%f + %f = %.2f", a , b, hasil);
 }
