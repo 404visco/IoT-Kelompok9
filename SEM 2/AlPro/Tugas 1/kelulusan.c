@@ -2,7 +2,7 @@
 /*{Mengecek apakah seorang mahasiswa lulus berdasarkan persentase kehadiran dan nilai akhir}*/
 
 #include <stdio.h>
-
+ 
 int main(){
 /*Kamus*/
     float hadir;
