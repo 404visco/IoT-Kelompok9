@@ -46,4 +46,6 @@ int main(){
 
     printf("Penghasilan bersih: %.2f\n", penghasilan);
     printf("Pajak: %.2f\n", pajak);
+
+    return 0;
 }
