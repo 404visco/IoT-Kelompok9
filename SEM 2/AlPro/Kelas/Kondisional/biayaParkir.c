@@ -1,5 +1,5 @@
-//Nama File         : diskon.c
-//Deskripsi         : menghitung besarnya diskon
+//Nama File         : biayaParkir.c
+//Deskripsi         : menghitung besarnya besarnya biaya parkir berdasarkan lama parkir per hari
 //Pembuat           : Visco Argatha Tawa Tawa
 //Tanggal Pembuatan : Minggu, 1 Maret 2026
 
