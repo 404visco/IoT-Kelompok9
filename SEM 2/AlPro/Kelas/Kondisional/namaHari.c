@@ -1,14 +1,15 @@
-/*namaHari*/
-/*{Mengubah masukan keyboard 1 - 7, menjadi hari senin-minggu}*/
+//Nama File         : namaHari.c
+//Deskripsi         : Mengubah masukan keyboard 1 - 7, menjadi hari senin-minggu
+//Pembuat           : Visco Argatha Tawa Tawa
+//Tanggal Pembuatan : Minggu, 1 Maret 2026
 
 #include <stdio.h>
 
 int main(){
-/*Kamus*/
+//Kamus
     int key;
     
-
-/*Algoritma*/
+//Algoritma
     printf("Masukkan key: ");
     scanf("%d", &key);
     if  (key >= 1 && key <=7){

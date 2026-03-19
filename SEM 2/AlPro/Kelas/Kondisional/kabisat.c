@@ -1,12 +1,15 @@
-/*kabisat*/
-/*{Mengecek apakah suatu tahun merupakan tahun kabisat}*/
+//Nama File         : kabisat.c
+//Deskripsi         : Mengecek apakah suatu tahun merupakan tahun kabisat
+//Pembuat           : Visco Argatha Tawa Tawa
+//Tanggal Pembuatan : Minggu, 1 Maret 2026
+
 #include <stdio.h>
 
 int main(){
-/*Kamus*/
-    int i;  /*Tahun i*/
+//Kamus
+    int i;  //Tahun i
 
-/*Algoritma*/
+//Algoritma
     scanf("%d", &i);
 
     if ( i % 4 == 0){

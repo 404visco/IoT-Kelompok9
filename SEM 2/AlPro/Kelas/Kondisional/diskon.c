@@ -1,5 +1,7 @@
-//diskon
-//Menghitung besarnya diskon belanja
+//Nama File         : diskon.c
+//Deskripsi         : menghitung besarnya diskon
+//Pembuat           : Visco Argatha Tawa Tawa
+//Tanggal Pembuatan : Minggu, 1 Maret 2026
 
 #include <stdio.h>
 

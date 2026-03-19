@@ -1,14 +1,16 @@
-/*kelulusan*/
-/*{Mengecek apakah seorang mahasiswa lulus berdasarkan persentase kehadiran dan nilai akhir}*/
+//Nama File         : kelulusan.c
+//Deskripsi         : Mengecek apakah seorang mahasiswa lulus berdasarkan persentase kehadiran dan nilai akhir
+//Pembuat           : Visco Argatha Tawa Tawa
+//Tanggal Pembuatan : Minggu, 1 Maret 2026
 
 #include <stdio.h>
  
 int main(){
-/*Kamus*/
+//Kamus
     float hadir;
     float na;
 
-/*Algoritma*/
+//Algoritma
     printf("Masukkan persentase hadir: ");
     scanf("%f", &hadir);
     printf("Masukkan nilai akhir: ");

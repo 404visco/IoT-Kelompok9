@@ -1,16 +1,17 @@
+//Nama File         : kelasBMI.c
+//Deskripsi         : cek klasifikasi BMI berdasarkan bb dan tb
+//Pembuat           : Visco Argatha Tawa Tawa
+//Tanggal Pembuatan : Minggu, 1 Maret 2026
+
 #include <stdio.h>
 
-/*kelipatanX*/
-/*{Mengecek apakah suatu bilangan integer i merupakan kelipatan 5}*/
-
-
 int main(){
- /*Kamus*/
-    float tb; /*Bilangan float tb*/
-    float bb; /*Bilangan float bb*/
-    float bmi; /*Bilangan float, bmi = bb/(tb*tb) i*/
+ //Kamus
+    float tb; //Bilangan float tb
+    float bb; //Bilangan float bb
+    float bmi; //Bilangan float, bmi = bb/(tb*tb) i
     
- /*Algoritma*/
+ //Algoritma
     printf("Masukkan tb (meter):\n", tb);
     scanf("%f", &tb);
     printf("Masukkan bb (kg):\n", bb);
