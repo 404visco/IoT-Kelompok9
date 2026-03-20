@@ -13,12 +13,16 @@ int main(){
 
     //Algoritma
     jum = 0;
-    do{
-        printf("Masukkan bilangan N: \n");
-        scanf("%d", &N);
-    } while (N <= 0);
-    for (i = 1; i <=N; i++){
-        jum = jum + 1.0/i;
+    
+    printf("Masukkan bilangan N: \n");
+    scanf("%d", &N);
+    if (N <=0){
+        printf("Bilangan N harus positif\n");
     }
-    printf("Jumlah deret = %f", jum);
+    else{ //N > 0
+        for (i = 1; i <=N; i++){
+            jum = jum + 1.0/i;
+        }
+        printf("Jumlah deret = %f", jum);
+    }
 }
