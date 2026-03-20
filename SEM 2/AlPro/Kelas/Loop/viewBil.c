@@ -1,4 +1,4 @@
-//Nama File         : vieBil.c
+//Nama File         : viewBil.c
 //Deskripsi         : Buat teks algoritma untuk menampilkan bilangan 1 sampai dengan N. Bilangan N harus positif.
 //Pembuat           : Visco Argatha Tawa Tawa
 //Tanggal Pembuatan : Minggu, 7 Maret 2026
@@ -16,7 +16,7 @@ int main(){
     if (N <= 0){
         printf("N harus Positif!\n");
     }
-    else{
+    else{ //N>0
         for (i = 1; i <= N; i++ ){
             printf("%d ", i);   
         }
