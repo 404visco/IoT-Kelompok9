@@ -1,7 +1,7 @@
 //Nama File         : viewBil.c
 //Deskripsi         : Buat teks algoritma untuk menampilkan bilangan 1 sampai dengan N. Bilangan N harus positif.
 //Pembuat           : Visco Argatha Tawa Tawa
-//Tanggal Pembuatan : Minggu, 7 Maret 2026
+//Tanggal Pembuatan : Sabtu, 7 Maret 2026
 
 #include <stdio.h>
 

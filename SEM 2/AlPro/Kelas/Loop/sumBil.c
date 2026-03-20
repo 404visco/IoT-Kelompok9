@@ -1,7 +1,7 @@
 //Nama File         : sumBil.c
 //Deskripsi         : Menghitung dan menampilkan jumlahan bilangan N. Proses penjumlahan diakhiri jika yang dimasukan adalah nilai 999, dan nilai 999 tidak ikut dijumlahkan. 
 //Pembuat           : Visco Argatha Tawa Tawa
-//Tanggal Pembuatan : Minggu, 7 Maret 2026
+//Tanggal Pembuatan : Sabtu, 7 Maret 2026
 
 #include <stdio.h>
 
