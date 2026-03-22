@@ -19,12 +19,13 @@ int main(){
         printf("Bilangan harus > 0\n");
         return 0;
     }
-
-    sumdigit = 0;
-    while (N > 0) {
-        sumdigit += N % 10;
-        N /= 10;
-        digit++;
+    else{
+        sumdigit = 0;
+        while (N > 0) {
+            sumdigit += N % 10;
+            N /= 10;
+            digit++;
+        }
     }
     printf("Digit: %d\n", digit);
     printf("Sum Digit: %d", sumdigit);
