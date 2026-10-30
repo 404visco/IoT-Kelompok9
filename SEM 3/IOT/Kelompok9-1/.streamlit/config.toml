@@ -1,0 +1,11 @@
+nfig · TOML
+[theme]
+base = "dark"
+primaryColor = "#E8AE90"
+backgroundColor = "#121D22"
+secondaryBackgroundColor = "#1A2A32"
+textColor = "#EFE8DF"
+font = "sans serif"
+ 
+[client]
+toolbarMode = "minimal"
